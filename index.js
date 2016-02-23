@@ -1,16 +1,19 @@
+var path    = require("path");
 var express = require('express');
-var app = express();
+var app     = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-// app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/app'));
 
 // views is directory for all template files
 // app.set('views', __dirname + '/views');
 // app.set('view engine', 'ejs');
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
 
 app.get('/', function(request, response) {
-  response.render('app/index');
+  response.sendFile(path.join(__dirname + '/app/index.html'));
 });
 
 app.listen(app.get('port'), function() {
