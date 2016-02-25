@@ -128,9 +128,11 @@
      border : 1px solid gray;
    
 }
-.s-input{
+input.s-input{
     padding:0 21px;
     width: 239px; 
+    background: white;
+    color: gray;
 }
 button.s-btn{
     background: #4856BB;
