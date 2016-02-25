@@ -1,7 +1,7 @@
 {
-  "name": "boris-personal-portafolio",
+  "name": "CodeStack",
   "version": "0.1.0",
-  "description": "A simple web page with all my projects",
+  "description": "Where awesomeness is brought to life",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -14,17 +14,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borisgastelu/portafolio_assets.git"
+    "url": "git+https://github.com/borisgastelu/codestack.git"
   },
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "express",
+    "angularjs"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/borisgastelu/portafolio_assets/issues"
+    "url": "https://github.com/borisgastelu/codestack/issues"
   },
-  "homepage": "https://github.com/borisgastelu/portafolio_assets#readme",
+  "homepage": "https://github.com/borisgastelu/codestack#readme",
   "author": "Boris Gastelu"
 }

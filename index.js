@@ -4,14 +4,10 @@ var app     = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static(__dirname + '/app'));
-
-// views is directory for all template files
-// app.set('views', __dirname + '/views');
-// app.set('view engine', 'ejs');
+app.use(express.static(__dirname + '/www'));
 
 app.get('/', function(request, response) {
-  response.render(path.join(__dirname + '/app/index.html'));
+  response.render(path.join(__dirname + '/www/index.html'));
 });
 
 app.listen(app.get('port'), function() {
