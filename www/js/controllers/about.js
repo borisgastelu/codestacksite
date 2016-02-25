@@ -9,6 +9,7 @@
     function AboutCtrl($scope) {
 
         ui.init();
+        googleAPI.init();
 
     }
 
