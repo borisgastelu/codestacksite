@@ -82,7 +82,78 @@
 .s-info a:hover{
     text-decoration: none;
 }
-@media screen and (max-width:768) {
+/*Suscribéte*/
+.s-row{
+     background-color: #f1f1f1;
+}
+.s-suscribete{
+    padding: 40px 0;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.s-form-wrapp{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    margin-left : 5px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+.s-form-wrapp:first-child{
+    margin-left: 0;
+}
+.s-h3 h3{
+    font-size: 18px;
+    margin: 0;
+}
+.s-p p{
+    font-size:16px ;
+    padding-top: 20px ;
+    margin :0;
+}
+.s-form{
+     padding: 30px 0 10px 0;
+}
+.s-form-wrapp input, .s-form-wrapp button{
+     height: 42px;
+     border : none;
+     background: none;
+     border-radius:20px;
+     outline: none;
+     border : 1px solid gray;
+   
+}
+.s-input{
+    padding:0 21px;
+    width: 239px; 
+}
+button.s-btn{
+    background: #4856BB;
+    color: white;
+    transition: all .2s linear;
+    border-color: #4856BB;
+    padding: 0 40px;
+    
+}
+.s-btn:hover{
+    background: #999999;
+    border-color: #999999;
+    
+    
+}
+
+
+
+@media  (max-width : 768) {
+    .s-col-6{
+        height: 100%;
+        min-height: 300px;
+    }
     .s-map{
         top: -150%;
 		position: fixed;
@@ -90,6 +161,7 @@
 		width: 100%;
 		left: 0;
 		opacity: 0;
+        height: 100%;
 		visibility: hidden;
 		transform: perspective(200px) rotateX(-20deg);
     }
@@ -103,5 +175,18 @@
     }
     .s-close, .s-open{
         display: block;
+    }
+}
+@media screen and (max-width : 480px){
+    .s-form-wrapp{
+        display: block;
+        padding: 10px 0;
+    }
+    .s-form{
+        padding-top:20px; 
+    }
+    .s-suscribete{
+        width: 96%;
+        padding: 40px 0 30px 0;
     }
 }
