@@ -289,24 +289,64 @@ aside {
     text-align: center;
     padding-top: 40px;
 }
-.range-list {
-    padding-bottom: 40px;
-    padding-top: 40px;
+
+/* start: Contact */
+#contact {
+    margin: 65px auto 112px;
 }
-.range-list h4 {
-    margin-bottom: 40px;
-    color: darkorange;
-    font-weight: bold;
+.contact-form {
+    display: table;
+    max-width: 600px;
+    margin: 0 auto;
 }
-.range-list img {
-    height: 100%;
-    max-width: 140px;
-    max-height: 60px;
+#contact h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 67px;
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#info {
+    height: 40px;
+    color: #37cc81;
+    display: none;
+    font-family: ff-tisa-web-pro,serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#contact .form-group {
+    margin-bottom: 12px;
+}
+#contact input {
+    height: 55px;
+}
+#contact input, #contact textarea {
+    font-family: ff-tisa-web-pro,serif;
+    font-style: italic;
+    border-radius: 0;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: #666;
+    border: 2px solid #000;
+    box-shadow: none;
+}
+.btn-send {
     width: 100%;
+    border: 2px solid #000;
+    border-radius: 0;
+    padding: 20px;
+    font-family: ff-tisa-web-pro,serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
 }
-.range-title {
-    color: darkblue;
-}
+/* end: Contact */
 
 /* MEDIA QUERIES */
 
@@ -372,43 +412,4 @@ aside {
     .fixed-attachment {
         background-attachment: scroll;
     }
-}
-@media (max-width: 767px) {
-    .range-list h4 {
-        display: inline;
-        font-size: 18px;
-    }
-    .range-list a {
-        display: block;
-    }
-    .range-list img {
-        height: 33%;
-        margin-bottom: 30px;
-        margin-right: 10px;
-        margin-top: 20px;
-        width: 33%;
-    }
-}
-
-/* columns of same height styles */
-
-.row-height {
-    display: table;
-    table-layout: fixed;
-    height: 100%;
-    width: 100%;
-}
-.col-height {
-    display: table-cell;
-    float: none;
-    height: 100%;
-}
-.col-top {
-    vertical-align: top;
-}
-.col-middle {
-    vertical-align: middle;
-}
-.col-bottom {
-    vertical-align: bottom;
 }

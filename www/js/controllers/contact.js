@@ -9,6 +9,7 @@
     function ContactCtrl($scope) {
 
         ui.init();
+        googleAPI.init();
 
     }
 

@@ -9,6 +9,7 @@
     function CoursesCtrl($scope) {
 
         ui.init();
+        googleAPI.init();
 
     }
 

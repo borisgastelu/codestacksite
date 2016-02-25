@@ -9,6 +9,7 @@
     function CareersCtrl($scope) {
 
         ui.init();
+        googleAPI.init();
 
     }
 

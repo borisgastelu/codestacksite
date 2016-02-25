@@ -82,7 +82,7 @@
 .s-info a:hover{
     text-decoration: none;
 }
-@media screen and (max-width:768) {
+@media (max-width: 768px) {
     .s-map{
         top: -150%;
 		position: fixed;

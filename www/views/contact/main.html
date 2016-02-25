@@ -1,29 +1,58 @@
-<section class="container-fluid">
-    <div id="contact" class="row contact">
-        <h1>Connect with <strong>Code<span class="text-red">Stack</span></strong> Labs</h1>
-        <h3>boris.gastelu@gmail.com</h3>
-        <div class="social">
-            <div>
-                <a href="https://twitter.com/BorisGastelu" target="_blank">
-                    <img src="images/twitter.png" alt="Twitter" />
-                </a>
-            </div>
-            <div>
-                <a href="https://github.com/bgastel" target="_blank">
-                    <img src="images/github.png" alt="GitHub" />
-                </a>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/borisgastelu" target="_blank">
-                    <img src="images/linkedin.png" alt="LinkedIn" />
-                </a>
-            </div>
-            <div>
-                <a href="http://www.freecodecamp.com/bgastel" target="_blank">
-                    <img src="images/fcc.png" alt="Free Coce Camp" />
-                </a>
-            </div>
+<section id="contact" class="container-fluid">
+    <div class="row">
+        <div class="center-block contact-form">
+
+            <h2>Ask us anything.</h2>
+
+            <div id="info"></div>
+
+            <form action="#" id="subscription" method="post" role="form" onsubmit="return validateContactForm();">
+
+                <div class="form-group">
+
+                    <input type="text" name="contact_name" class="form-control" placeholder="name">
+
+                </div>
+
+                <div class="robotic">
+                    <input type="email" name="email" placeholder="dont fill this out">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="liame" class="form-control" placeholder="email">
+
+                </div>
+
+                <div class="form-group">
+
+                    <input type="text" name="subject" class="form-control" placeholder="subject">
+
+                </div>
+
+                <div class="form-group" style="margin-bottom:0px;">
+
+                    <textarea name="message" class="form-control" rows="6" placeholder="message"></textarea>
+
+                </div>
+
+                <br>
+                <div class="g-recaptcha" data-sitekey="6LdyogkTAAAAAIPpLV10mpX8NeVXAz90-70cI2By">
+                    <div>
+                        <div style="width: 304px; height: 78px;">
+                            <iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LdyogkTAAAAAIPpLV10mpX8NeVXAz90-70cI2By&amp;co=aHR0cDovL21va3JpeWEuY29tOjgw&amp;hl=en&amp;v=r20160223094127&amp;size=normal&amp;cb=9f1p7dm40s3s" title="recaptcha widget"
+                            width="304" height="78" role="presentation" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea>
+                    </div>
+                </div>
+                <br>
+
+                <button type="submit" class="btn btn-send">submit</button>
+
+            </form>
+
         </div>
+
     </div>
 
     <ng-include src="'views/shared/expertise.html'"></ng-include>
