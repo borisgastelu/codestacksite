@@ -11,6 +11,9 @@
 }
 .s-col-6{
     height: 500px;
+    padding: 0;
+    margin: 0;
+
 }
 .s-map{
     position: relative;
@@ -47,7 +50,39 @@
     width: 100%;
     height: 100%;
 }
-@media screen and(max-width:768) {
+.s-centered-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.s-info h4{
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 auto 36px;
+    color: white;
+    position: relative;
+    padding-bottom:10px;
+}
+.s-info h4:after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    border: 1px solid white;
+    bottom :0;
+    left :0;
+    right:0;
+    margin: auto;
+}
+.s-info a{
+    font-size: 40px;
+    color: white;
+    display: block;
+}
+.s-info a:hover{
+    text-decoration: none;
+}
+@media screen and (max-width:768) {
     .s-map{
         top: -150%;
 		position: fixed;
