@@ -12,7 +12,7 @@ html, body {
 }
 
 /* Video wallpaper */
-#main {
+.wall-cover {
     display: block;
     position: relative;
     width: auto;
@@ -150,6 +150,9 @@ html, body {
 .text-green {
     color: #20B66B;
 }
+.text-orange {
+    color: #EEB54C;
+}
 .down-button {
     position: absolute;
     bottom: 40px;
@@ -203,7 +206,6 @@ html, body {
 .box-blue {
     background-color: #86CDEA;
 }
-
 .skills {
     position: relative;
 }

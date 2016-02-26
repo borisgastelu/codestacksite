@@ -14,11 +14,11 @@
 				})
 				.when('/work', {
 					templateUrl: 'views/work/main.html',
-					// controller: 'CoursesCtrl'
+					controller: 'WorkCtrl'
 				})
 				.when('/services', {
 					templateUrl: 'views/services/main.html',
-					// controller: 'CoursesCtrl'
+					// controller: 'ServicesCtrl'
 				})
 				.when('/courses', {
 					templateUrl: 'views/courses/main.html',

@@ -8,7 +8,9 @@
 
     function AboutCtrl($scope) {
 
-        ui.init();
+        ui.init()
+            .setWallpaper('.cover', 'images/about.png');
+
         googleAPI.init();
 
     }

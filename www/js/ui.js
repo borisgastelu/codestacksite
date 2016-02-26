@@ -5,17 +5,7 @@ var ui = (function () {
             $('.fill-screen').css('height', window.innerHeight);
         });
 
-        $("#main").wallpaper({
-            source: {
-                poster: 'images/laptop.jpg'
-                // mp4: 'videos/presentation.mp4'
-            }
-        });
-
-        // Navbar
-        // $('.dropdown-toggle').dropdown();
-
-        // Add Boostrap's scrollspy
+        // Add Boostraps scrollspy
         $('body').scrollspy({
             target: '.navbar',
             offset: 160
@@ -48,10 +38,26 @@ var ui = (function () {
         $('.activity-element').waypoint(function() {
             $('.activity-element').addClass('fadeInUp');
         }, { offset: '80%' });
+
+        return this;
+    };
+
+    var setWallpaper = function (el, imgPath) {
+        $(el)
+            .addClass('wall-cover')
+            .wallpaper({
+                source: {
+                    poster: imgPath
+                    // mp4: videos/presentation.mp4
+                }
+            });
+
+        return this;
     };
 
     return {
-        init: init
+        init: init,
+        setWallpaper: setWallpaper
     };
 
 }());
