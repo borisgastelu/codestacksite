@@ -79,7 +79,8 @@ html, body {
     margin: 40px 20px;
 }
 .text-banner .team {
-    margin: 10px 10%;
+    /*margin: 10px 10%;*/
+    margin: 10px 0;
 }
 .text-banner img {
     width: 35%;
