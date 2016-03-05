@@ -9,8 +9,12 @@
 		.config(function ($routeProvider) {
 			$routeProvider
 				.when('/', {
+					templateUrl: 'views/home/home.html',
+					// controller: 'AboutCtrl'
+				})
+				.when('/about', {
 					templateUrl: 'views/about/main.html',
-					 controller: 'AboutCtrl'
+					controller: 'AboutCtrl'
 				})
 				.when('/work', {
 					templateUrl: 'views/work/main.html',
