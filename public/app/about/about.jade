@@ -1,0 +1,19 @@
+.container-fluid
+    .row.cover
+        .stellar-bg(data-stellar-background-ratio="0.2")
+            .title-image.animated
+                h1.bolder Code#[span.text-green Stack]
+                h3 Transformando Ideas en Grandes Soluciones de Software
+                
+            .down-button
+                a.btn(href="#team")
+                    i.fa.fa-arrow-circle-down.fa-4x
+    
+    div(ng-include="'/partials/about/team'")
+
+    .row
+        .fixed-attachment(style="background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 400px; background-image: url(images/meeting.png);")
+
+    div(ng-include="'/partials/shared/expertise'")
+    div(ng-include="'/partials/shared/subscribe-banner'")
+    div(ng-include="'/partials/shared/contact-map'")

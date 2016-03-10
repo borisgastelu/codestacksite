@@ -1,5 +1,11 @@
 # codestack
 
+npm install
+
+bower install
+
+node server.js
+
 Contributing
 
 1. Fork it
