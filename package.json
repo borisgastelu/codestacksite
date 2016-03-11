@@ -4,7 +4,8 @@
   "description": "Where awesomeness is brought to life",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "bower install"
   },
   "engines": {
     "node": "4.3.x",
@@ -13,10 +14,11 @@
   "author": "Boris Gastelu",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "jade": "^1.11.0",
-    "stylus": "^0.54.0"
+    "body-parser": "1.15.0",
+    "bower": "1.7.7",
+    "express": "4.13.4",
+    "jade": "1.11.0",
+    "stylus": "0.54.0"
   },
   "keywords": [
     "node",
