@@ -1,0 +1,14 @@
+.container-fluid
+    .row.cover
+        .stellar-bg(data-stellar-background-ratio="0.2")
+            .title-image.animated
+                h1.bolder Code#[span.text-green Stack] #[span.lighter Labs]
+                h3 Comprometidos con nuestros clientes y sus productos
+                
+            .down-button
+                a.btn(href="#our-work")
+                    i.fa.fa-arrow-circle-down.fa-4x
+    
+    div(ng-include="'/partials/work/our-work'")
+    div(ng-include="'/partials/shared/subscribe-banner'")
+    div(ng-include="'/partials/shared/contact-map'")

@@ -1,8 +1,0 @@
-{
-	"name": "CodeStack",
-	"description": "Where awesomeness is brought to life",
-	"repository": "",
-	"logo": "http://codestack.herokuapp.com/node.svg",
-	"keywords": ["node", "express", "static"],
-	"image": "heroku/nodejs"
-}

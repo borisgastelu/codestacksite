@@ -2,19 +2,21 @@
   "name": "CodeStack",
   "version": "0.1.0",
   "description": "Where awesomeness is brought to life",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.13.4"
+    "start": "node server.js"
   },
   "engines": {
-    "node": "0.12.7"
+    "node": "4.3.x",
+    "npm": "2.14.x"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/borisgastelu/codestack.git"
+  "author": "Boris Gastelu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "stylus": "^0.54.0"
   },
   "keywords": [
     "node",
@@ -22,10 +24,12 @@
     "express",
     "angularjs"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/borisgastelu/codestack/issues"
+  "homepage": "https://github.com/borisgastelu/codestacksite#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borisgastelu/codestacksite.git"
   },
-  "homepage": "https://github.com/borisgastelu/codestack#readme",
-  "author": "Boris Gastelu"
+  "bugs": {
+    "url": "https://github.com/borisgastelu/codestacksite/issues"
+  }
 }

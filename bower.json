@@ -1,0 +1,38 @@
+{
+  "name": "CodeStack",
+  "description": "Where awesomeness is brought to life",
+  "main": "server.js",
+  "authors": [
+    "@BorisGastelu boris.gastelu@gmail.com"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "angularjs"
+  ],
+  "homepage": "https://github.com/borisgastelu/codestacksite",
+  "moduleType": [
+    "amd"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "animate.css": "^3.5.1",
+    "angular": "^1.5.0",
+    "jquery": "^2.2.1",
+    "waypoints": "^4.0.0",
+    "classie": "^1.0.1",
+    "bootstrap": "^3.3.6",
+    "font-awesome-bower": "^4.5.0"
+  }
+}
