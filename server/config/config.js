@@ -1,5 +1,12 @@
-var path = require('path'),
-	rootPath = path.normalize(__dirname + '/../../');
+'use strict';
+
+var _path = require('path');
+
+var _path2 = _interopRequireDefault(_path);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var rootPath = _path2.default.normalize(__dirname + '/../../');
 
 module.exports = {
 	development: {
@@ -10,4 +17,4 @@ module.exports = {
 		rootPath: rootPath,
 		port: process.env.PORT || 80
 	}
-}
+};

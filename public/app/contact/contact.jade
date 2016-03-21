@@ -1,0 +1,36 @@
+.container-fluid
+    form.form-horizontal(role="form", name="contactForm")
+        .form-group
+            label.control-label.col-md-2(for="name") Name
+            .col-md-10
+                input.form-control(type="text", id="name", placeholder="Nombres")
+                
+        .form-group
+            label.control-label.col-md-2(for="email") Email
+            .col-md-10
+                input.form-control(type="email", id="email", placeholder="Correo")
+                
+        .form-group
+            label.control-label.col-md-2(for="phone") Teléfono
+            .col-md-10
+                input.form-control(type="text", id="phone", placeholder="Número de teléfono")
+                
+        .form-group
+            label.control-label.col-md-2(for="company") Empresa
+            .col-md-10
+                input.form-control(type="text", id="company", placeholder="Empresa")
+                
+        .form-group
+            label.control-label.col-md-2(for="budget") Presupuesto aproximado
+            .col-md-10
+                input.form-control(type="text", id="budget", placeholder="Presupuesto aproximado")
+                
+        .form-group
+            label.control-label.col-md-2(for="project-start-date") Fecha de Inicio del Proyecto
+            .col-md-10
+                input.form-control(type="date", id="project-start-date", placeholder="Fecha de Inicio del Proyecto")
+                
+        .form-group
+            .col-md-10.col-md-offset-2
+                .checkbox
+                    label: input(type="checkbox", id="inform-me") Quiero ser informado sobre las noticias de CodeStack
